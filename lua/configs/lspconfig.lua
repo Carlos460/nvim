@@ -46,6 +46,21 @@ lspconfig.omnisharp.setup {
   },
 }
 
+-- rust setup
+lspconfig.rust_analyzer.setup {
+  on_attach = on_attach,
+  settings = {
+    ["rust-analyzer"] = {
+      cargo = {
+        features = {
+          "client",
+          "server"
+        }
+      },
+    }
+  }
+}
+
 -- gopls
 lspconfig.gopls.setup {
   on_attach = on_attach,

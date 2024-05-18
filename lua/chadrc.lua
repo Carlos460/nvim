@@ -6,7 +6,7 @@ local M = {}
 
 M.ui = {
 	theme = "gruvbox",
-  transparency = false,
+  transparency = true,
   tabufline = {
     enabled = false
   }
