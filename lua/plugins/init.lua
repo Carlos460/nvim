@@ -34,7 +34,7 @@ return {
         "html-lsp",
         "css-lsp",
         "tailwindcss-language-server",
-        "tsserver",
+        "ts_ls",
         "gopls",
         "omnisharp",
 

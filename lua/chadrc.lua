@@ -4,8 +4,8 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = {
-	theme = "gruvbox",
+M.base46 = {
+	theme = "bearded-arc",
   transparency = true,
   tabufline = {
     enabled = false

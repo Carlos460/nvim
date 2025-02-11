@@ -5,10 +5,6 @@ local harpoon = require "harpoon"
 
 local map = vim.keymap.set
 
-map("n", "<Leader>tt", function()
-  require("base46").toggle_transparency()
-end)
-
 -- navigating up and down half a page 
 map("i", "jk", "<ESC>")
 map("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true })

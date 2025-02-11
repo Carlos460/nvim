@@ -14,7 +14,7 @@ local servers = {
   -- "html-lsp",
   -- "css-lsp",
   -- "tailwindcss-language-server",
-  "tsserver",
+  "ts_ls",
   "gopls",
   "omnisharp",
   "sqlls",
@@ -34,7 +34,7 @@ for _, lsp in ipairs(servers) do
   }
 end
 
-lspconfig.tsserver.setup {}
+lspconfig.ts_ls.setup {}
 
 -- omnisharp (c#)
 lspconfig.omnisharp.setup {
